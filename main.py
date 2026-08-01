@@ -11,7 +11,7 @@ logger.addHandler(handler)
 
 
 def main():
-    config = Config(os.getenv("P1CHTO_CONFIG_FILE"))
+    config = Config(os.getenv("SWAK_CONFIG_FILE"))
 
     bot = Bot(config.welcome_channel_id, config.welcome_message)
 
