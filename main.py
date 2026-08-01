@@ -4,7 +4,7 @@ import os
 from src.bot import Bot
 from src.config import Config
 
-logger = logging.getLogger("p1chto")
+logger = logging.getLogger("swak")
 handler = logging.StreamHandler()
 handler.setLevel(logging.DEBUG)
 logger.addHandler(handler)
