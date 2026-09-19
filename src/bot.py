@@ -4,7 +4,7 @@ from string import Template
 import discord
 from discord.ext import commands
 
-logger = logging.getLogger("p1chto")
+logger = logging.getLogger("swak")
 logger.setLevel(logging.DEBUG)
 
 
